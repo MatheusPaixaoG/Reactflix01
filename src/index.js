@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+<<<<<<< HEAD
 import Home from './pages/Home';
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
@@ -25,5 +26,13 @@ ReactDOM.render(
       <Route component={Pagina404} />
     </Switch>
   </BrowserRouter>,
+=======
+import App from './App';
+
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+>>>>>>> fee2e38535e61e329aa2e65d554cd14c4a1ad01b
   document.getElementById('root')
 );
