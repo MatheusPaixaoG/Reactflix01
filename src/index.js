@@ -12,6 +12,7 @@ página de Cadastro do vídeo, por exemplo. Nesse caso, o If usaria o URL da pá
 /* O Route é como a gente vai declarar cada uma das páginas que a gente tem */
 
 const Pagina404 = () => (<div>Página 404</div>)
+//const Pagina404 = () => (<iframe src="https://editor.p5js.org/Mat009/embed/v5FsRYDki"></iframe>)
 
 /* O objetivo é fazer um Single Page Application, isto é, uma página que não precisa recarregar. Dessa
 forma, ao invés de recarregar a páginas, a gente está pegando esse Cadastro e, quando a gente clicar 
