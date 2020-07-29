@@ -22,7 +22,6 @@ body {
 
 a {
   color: inherit;
-<<<<<<< HEAD
 } 
 
 #root {
@@ -30,6 +29,3 @@ a {
   display: flex;
   flex-direction: column;
 }
-=======
-} 
->>>>>>> fee2e38535e61e329aa2e65d554cd14c4a1ad01b
