@@ -1,123 +1,123 @@
 {
   "categorias": [
     {
-      "titulo": "Front End",
+      "titulo": "Celulares",
       "link": "https://www.alura.com.br/formacao-front-end",
       "cor": "#6BD1FF",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "Informações sobre celulares",
+        "url": ""
       },
       "videos": [
         {
-          "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+          "titulo": "ZELDA BREATH OF THE WILD - Gameplay do Início, em Português, no Nintendo Switch!",
+          "url": "https://youtu.be/Cl6Bc7nZps4"
         },
         {
-          "titulo": "SEO com React",
-          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+          "titulo": "Redmi Note 9 Pro, PODEROSO o suficiente? [Análise/Review]",
+          "url": "https://youtu.be/yHwP5FigYoA"
         },
         {
-          "titulo": "Componentização com VanillaJS #AluraMais",
-          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+          "titulo": "Samsung Galaxy S20+, o equilibrado da linha S [Análise/Review]",
+          "url": "https://youtu.be/QA5bnli1-jg"
         },
         {
-          "titulo": "Pare de chutar e aprenda a display: inline #01",
-          "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+          "titulo": "SAMSUNG GALAXY M31 // um INTERMEDIÁRIO com 6000mAh de BATERIA e 128GB de armazenamento!",
+          "url": "https://youtu.be/5JWFHfF4nGg"
         },
         {
-          "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-          "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+          "titulo": "Motorola EDGE+, a VOLTA dos TOPs DE LINHA [Unboxing/Hands-on]",
+          "url": "https://youtu.be/PIGYoo_puN4"
         },
         {
-          "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+          "titulo": "OnePlus Nord Unboxing - Better than you think.",
+          "url": "https://youtu.be/l29HHHP-9V0"
         },
         {
-          "titulo": "Novidades do Angular v9",
-          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+          "titulo": "vivo X50 Pro Unboxing - World's first Rotating Camera.",
+          "url": "https://youtu.be/7gC-1C8l8H8"
         },
         {
-          "titulo": "Base para aprender os frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+          "titulo": "ROG PHONE 3: UNBOXING DO SMARTPHONE MAIS PODEROSO DE 2020!",
+          "url": "https://youtu.be/TdALKXTVZRU"
         }        
       ]
     },
     {
-      "titulo": "Back End",
+      "titulo": "Violão",
       "cor": "#00C86F",
       "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
+        "text": "Tutoriais e Fingerstyle de violão",
+        "url": ""
       },
       "videos": [
         {
-          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+          "titulo": "Fix You Guitar Tutorial - Coldplay Guitar Lesson |Tabs + Chords + Guitar Cover|",
+          "url": "https://youtu.be/KQ35HhzNLIQ"
         },
         {
-          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+          "titulo": "Hey Soul Sister Guitar Tutorial - Train Guitar Lesson 🎸 |Easy Chords + Guitar Cover|",
+          "url": "https://youtu.be/a2ThAHLHrQo"
         },
         {
-          "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+          "titulo": "『TAB』 Bad Liar - Imagine Dragons (Fingerstyle Guitar Cover)",
+          "url": "https://youtu.be/oSDpdcgREo4"
         },
         {
-          "titulo": "API: Dicionário do Programador",
-          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+          "titulo": "Galway Girl Guitar Tutorial - Ed Sheeran Guitar Lesson 🎸 |Easy Chords + Guitar Cover|",
+          "url": "https://youtu.be/QsLtz1lSvsY"
         }, 
         {
-          "titulo": "Usando Git Direito",
-          "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+          "titulo": "(Naruto Shippuden) Silhouette - Sungha Jung",
+          "url": "https://youtu.be/Ym4HOUforW0"
         }
       ]
     },
     {
-      "titulo": "Data Science e Inteligência Artificial",
+      "titulo": "League of Legends",
       "cor": "#9cd33b",
       "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/formacao-data-science"
+        "text": "Vídeos de LoL",
+        "url": ""
       },
       "videos": [
         {
-          "titulo": "Teste de Turing",
-          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+          "titulo": "SERÁ QUE O SWAIN CONSEGUE RETOMAR O PODER COM ESSES BUFFS? | Kami",
+          "url": "https://youtu.be/qo04yLlI7tI"
         },
         {
-          "titulo": "O que é Data Science?",
-          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+          "titulo": "DICAS BÁSICAS E ESSENCIAIS DO LOL!",
+          "url": "https://youtu.be/SK2cWgN65XE"
         },
         {
-          "titulo": "Melhor forma de aprender Python",
-          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+          "titulo": "O SENTIMENTO DE SER PRO PLAYER! - Takeshi",
+          "url": "https://youtu.be/FR1WIXb1bhU"
         },
         {
-          "titulo": "Como ingressar no mercado de Data Science?",
-          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+          "titulo": "Jayce Tips & Tricks [Pro Analysis]",
+          "url": "https://youtu.be/DzXe4fCB5nU"
         }
       ]
     },
     {
-      "titulo": "Filmes",
+      "titulo": "Investimentos",
       "cor": "orange",
       "videos": [
         {
-          "titulo": "Interestellar",
-          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+          "titulo": "COMO ANALISAR UMA AÇÃO | Como escolher empresas para investir",
+          "url": "https://youtu.be/VF8Z7ZwCFQ0"
         },
         {
-          "titulo": "Gattaca",
-          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+          "titulo": "COMO COMEÇAR A INVESTIR | O passo a passo COMPLETO (com e-book gratuito)",
+          "url": "https://youtu.be/PtAkxzMhobQ"
         },
         {
-          "titulo": "A Chegada",
-          "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+          "titulo": "6 PASSOS PRÁTICOS PRA JUNTAR 10 MIL REAIS! O passo 6 é o mais difícil",
+          "url": "https://youtu.be/7DOhKIQGXPA"
         },
         {
-          "titulo": "Feitiço do Tempo",
-          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+          "titulo": "5 PASSOS PRA INVESTIR EM AÇÕES! Entrar agora na Bolsa ou esperar? ",
+          "url": "https://youtu.be/F53-_i9fr-0"
         }
       ]
     },
@@ -125,59 +125,59 @@
       "titulo": "Games",
       "cor": "red",
       "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/formacao-jogos-unity"
+        "text": "Gameplays",
+        "url": ""
       },
       "videos": [
         {
-          "titulo": "Final Fantasy 7",
-          "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+          "titulo": "ZELDA BREATH OF THE WILD - Gameplay do Início, em Português, no Nintendo Switch!",
+          "url": "https://youtu.be/Cl6Bc7nZps4"
         },
         {
-          "titulo": "Assassins Creed Valhalla",
-          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+          "titulo": "THE LAST OF US REMASTERED: O Início - Gameplay 1080p em Português!",
+          "url": "https://youtu.be/fWPdNa72CuM"
         },
         {
-          "titulo": "God of War 4",
-          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+          "titulo": "Apresentação do CONSOLE e de GAMES do PLAYSTATION 5",
+          "url": "https://youtu.be/cBnmtc0pr58"
         },
         {
-          "titulo": "Resident Evil 8",
-          "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+          "titulo": "O CHEFÃO FINAL! - Minecraft Dungeons #5",
+          "url": "https://youtu.be/_aqZi_nClPI"
         },
         {
-          "titulo": "Pokémon Let's Go Pikachu/Eevee",
-          "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
+          "titulo": "ZELDA BREATH OF THE WILD #2 - Deixando o Great Plateau! (Gameplay Ao Vivo)",
+          "url": "https://youtu.be/s-YFe_aAQOI"
         }
       ]
     },
     {
-      "titulo": "Aprendendo a aprender tecnologia",
+      "titulo": "Ciências",
       "cor": "#6b5be2",
       "link_extra": {
         "text": "Curso sobre aprendizado na Alura",
-        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
+        "url": ""
       },
       "videos": [
         {
-          "titulo": "Como estudar melhor?",
-          "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
+          "titulo": "Deep Fake | Nerdologia Tech",
+          "url": "https://youtu.be/GBeavecUwB8"
         },
         {
-          "titulo": "Faculdade",
-          "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
+          "titulo": "Musashi, o maior samurai | Nerdologia",
+          "url": "https://youtu.be/gRe7oBX7LYk"
         },
         {
-          "titulo": "Frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+          "titulo": "CÂNCER",
+          "url": "https://youtu.be/wCH7zD_mm3s"
         },
         {
-          "titulo": "A mágica do Aprendizado",
-          "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
+          "titulo": "O Paradoxo do Teletransporte",
+          "url": "https://youtu.be/2LqqyxmEWnY"
         },
         {
-          "titulo": "Como aprender a programar?",
-          "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+          "titulo": "O Que Aconteceria Se Você Passasse 1 Segundo no Núcleo do Sol?",
+          "url": "https://youtu.be/26BvHv-Z2p4"
         }
       ]
     }
