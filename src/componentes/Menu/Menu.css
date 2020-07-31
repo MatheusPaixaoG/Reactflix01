@@ -12,18 +12,32 @@
     height: 94px;
     z-index: 100;
   
+    /* Vai aplicar a propriedade de flexibilizar o conteúdo para que a gente possa organizá-lo 
+    de alguma forma */
     display: flex;
+    /* O Space-between vai pegar todo o espaço disponível que a gente tiver (os 100% da tela)
+    e vai distribuir esse espaço todo que a gente tem disponível entre os nossos componentes, então ele 
+    pegou todo o espaço que a gente tinha e colocou entre os componentes que a gente tinha. Ele pega o 
+    espaço e divide igualmente entre os componentes */
+    /* O justify-content sempre vai ser na direção do flex. O flex, por default, sempre vai ser row,
+    ou seja, na direção de linha */
+    /* O align-items sempre vai ser na direção oposta que a gente tá, então, se a gente tá organizando
+    em linha, ele vai organizar verticalmente. O center é pra conseguir centralizar ele na página */
     justify-content: space-between;
     align-items: center;
   
+    /* position: fixed --> o menu continua aparecendo mesmo ao scrollar a tela */
     position: fixed;
+    /* top, left e right aqui são para fazer com que o menu cubra toda a área de cima da tela */
     top: 0;
     left: 0;
     right: 0;
+    /* Essa porcentagem sempre vai ser referente ao tamanho do pai */
     padding-left: 5%;
     padding-right: 5%;
   
     background: var(--black);
+    /* O border-bottom cria uma linha embaixo do conteúdo */
     border-bottom: 2px solid var(--primary);
   }
   body {

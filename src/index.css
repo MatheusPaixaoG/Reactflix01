@@ -1,8 +1,11 @@
+/* Reset */
 * {
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
 
+/* O : root é uma forma de escrever variáveis no CSS, de forma que cada cor hexadecimal ficou armazenada
+nas variáveis --algumaCoisa */
 :root {
   --primary: #2A7AE4;
   --black: #000000;
@@ -14,12 +17,14 @@
   --backEnd: #00C86F;
 }
 
+/* Reset */
 html,
 body {
   margin: 0;
   padding: 0;
 }
 
+/* inherit vai fazer com que ele pegue a cor de texto/fonte do pai (a cor seja igual à do pai) */
 a {
   color: inherit;
 } 

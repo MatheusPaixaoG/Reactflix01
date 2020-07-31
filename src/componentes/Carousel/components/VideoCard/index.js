@@ -1,5 +1,9 @@
 import React from 'react';
 import { VideoCardContainer } from './styles';
+/*import { ContentAreaContainer, WatchButton } from '../../../BannerMain/styles';
+import VideoIframeResponsive from '../../../BannerMain/components/VideoIframeResponsive';
+import YoutubeIframeResponsive from '../../../BannerMain/components/VideoIframeResponsive/index';
+import { VideoContainer, ResponsiveIframe } from '../../../BannerMain/components/VideoIframeResponsive/styles'*/
 
 function getYouTubeId(youtubeURL) {
   return youtubeURL
@@ -8,7 +12,6 @@ function getYouTubeId(youtubeURL) {
       '$7',
     );
 }
-
 
 function VideoCard({ videoTitle, videoURL, categoryColor }) {
   const image = `https://img.youtube.com/vi/${getYouTubeId(videoURL)}/hqdefault.jpg`;

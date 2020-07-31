@@ -1,16 +1,16 @@
 import styled from 'styled-components';
 
 export const Title = styled.h3`
+  background: red;
+  border-radius: 4px;
+  display: inline-block;
+  font-size: 35px;
   font-style: normal;
   font-weight: normal;
-  font-size: 35px;
+  line-height: 1;
   line-height: 1;
   margin-bottom: 16px;
-  display: inline-block;
   padding: 20px;
-  background: red;
-  line-height: 1;
-  border-radius: 4px;
 
   @media (max-width: 800px) {
     font-size: 18px;
@@ -27,6 +27,7 @@ export const ExtraLink = styled.a`
     opacity: .5;
   }
   @media (max-width: 800px) {
+    /* O display: block já faz ele ir para a linha de baixo no mobile (abaixo do nome maior) */
     display: block;
     margin-bottom: 16px;
     margin-left: 0;
@@ -34,13 +35,13 @@ export const ExtraLink = styled.a`
 `;
 
 export const VideoCardList = styled.ul`
+  display: flex;
+  flex-direction: row;
+  list-style: none;
   margin: 0;
+  overflow-x: auto;
   padding-left: 0;
   padding-bottom: 32px;
-  list-style: none;
-  display: flex;
-  overflow-x: auto;
-  flex-direction: row;
   
   li {
     margin-right: 16px;
