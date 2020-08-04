@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import PageDefault from '../../../componentes/PageDefault';
 import FormField from '../../../componentes/FormField';
 import Button from '../../../componentes/Button/index';
+import useForm from '../../../hooks/useForm';
 
 function CadastroCategoria() {
   const valoresIniciais = {
@@ -10,35 +11,19 @@ function CadastroCategoria() {
     descricao: '',
     cor: '',
   };
-  /* Aqui, a gente tem 3 coisas que estamos colocando na tela ()3 valores que estamos usando):
+  /* Aqui, a gente tem 3 coisas que estamos colocando na tela (3 valores que estamos usando):
       O nome que estamos dando para a nossa categoria (nomeDaCategoria);
       setNomeDaCategoria, que é o que a gente vai usar para mudar;
       Esse "Valor Inicial" que tá dentro de useState vai ser o nosso valor inicial, por isso que ele já
       está aparecendo na tela */
-  const [values, setValues] = useState(valoresIniciais); // Isso daqui é um objeto
-  /* Como os colchetes estão antes do "=" (na declaração da variável), a gente tá abrindo o que tá vindo
-  de depois do "=", ou seja, se depois está vindo um array, a gente está abrindo um array */
+
+  const { handleChange, values, clearForm } = useForm(valoresIniciais);
+  
   /* O useState retorna o nome da categoria e uma função */
   // "set" vai definir o nome da categoria
   const [categorias, setCategorias] = useState([]);
 
-  // chave é um valor variável. Ele pode ser: nome, descricao, cor, bla bla bla
-  function setValue(chave, valor) {
-    setValues({
-      ...values,
-      [chave]: valor, // entre colchetes para virar um valor dinâmico // nome: 'valor'
-    });
-  }
-
-  function handleChange(infosDoEvento) {
-    // const { getAttribute, value } = infosDoEvento.target;
-    // De novo, aqui estamos abrindo o que vem depois do "="
-    setValue(
-      infosDoEvento.target.getAttribute('name'),
-      infosDoEvento.target.value,
-    );
-    // Do jeito que está, a nossa função recebe o nome e o value dinamicamente
-  }
+  
 
   useEffect(() => {
     const URL_TOP = window.location.hostname.includes('localhost')
@@ -86,7 +71,7 @@ function CadastroCategoria() {
           values,
         ]);
 
-        setValues({ valoresIniciais });
+        clearForm();
       }}
       >
 
@@ -127,8 +112,8 @@ function CadastroCategoria() {
 
       <ul>
         {categorias.map((categoria) => (
-          <li key={`${categoria.nome}`}>
-            {categoria.nome}
+          <li key={`${categoria.titulo}`}>
+            {categoria.titulo}
           </li>
         ))}
       </ul>

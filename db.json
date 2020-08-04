@@ -1,16 +1,230 @@
 {
-    "categorias": [
-        {
-            "id": 1,
-            "nome": "Front End",
-            "descricao": "Uma categoria bacanudassa",
-            "cor": "cbd1ff"
-        },
-        {
-            "id": 2,
-            "nome": "Back End",
-            "descricao": "Outra categoria bacanudassa",
-            "cor": "cbd1ff"
-        }
-    ]
+  "categorias": [
+    {
+      "id": 1,
+      "titulo": "Celulares",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "Informações sobre celulares",
+        "url": ""
+      }
+    },
+    {
+      "id": 2,
+      "titulo": "Violão",
+      "cor": "#00C86F",
+      "link_extra": {
+        "text": "Tutoriais e Fingerstyle de violão",
+        "url": ""
+      }
+    },
+    {
+      "id": 3,
+      "titulo": "League of Legends",
+      "cor": "#9cd33b",
+      "link_extra": {
+        "text": "Vídeos de LoL",
+        "url": ""
+      }
+    },
+    {
+      "id": 4,
+      "titulo": "Investimentos",
+      "cor": "orange"
+    },
+    {
+      "id": 5,
+      "titulo": "Games",
+      "cor": "red",
+      "link_extra": {
+        "text": "Gameplays",
+        "url": ""
+      }
+    },
+    {
+      "id": 6,
+      "titulo": "Ciências",
+      "cor": "#6b5be2",
+      "link_extra": {
+        "text": "Vídeos para aprender",
+        "url": ""
+      }
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "ZELDA BREATH OF THE WILD - Gameplay do Início, em Português, no Nintendo Switch!",
+      "url": "https://youtu.be/Cl6Bc7nZps4"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "Redmi Note 9 Pro, PODEROSO o suficiente? [Análise/Review]",
+      "url": "https://youtu.be/yHwP5FigYoA"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "Samsung Galaxy S20+, o equilibrado da linha S [Análise/Review]",
+      "url": "https://youtu.be/QA5bnli1-jg"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "SAMSUNG GALAXY M31 // um INTERMEDIÁRIO com 6000mAh de BATERIA e 128GB de armazenamento!",
+      "url": "https://youtu.be/5JWFHfF4nGg"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "Motorola EDGE+, a VOLTA dos TOPs DE LINHA [Unboxing/Hands-on]",
+      "url": "https://youtu.be/PIGYoo_puN4"
+    },
+    {
+      "id": 6,
+      "categoriaId": 1,
+      "titulo": "OnePlus Nord Unboxing - Better than you think.",
+      "url": "https://youtu.be/l29HHHP-9V0"
+    },
+    {
+      "id": 7,
+      "categoriaId": 1,
+      "titulo": "vivo X50 Pro Unboxing - World's first Rotating Camera.",
+      "url": "https://youtu.be/7gC-1C8l8H8"
+    },
+    {
+      "id": 8,
+      "categoriaId": 2,
+      "titulo": "Fix You Guitar Tutorial - Coldplay Guitar Lesson |Tabs + Chords + Guitar Cover|",
+      "url": "https://youtu.be/KQ35HhzNLIQ"
+    },
+    {
+      "id": 9,
+      "categoriaId": 2,
+      "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
+      "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+    },
+    {
+      "id": 10,
+      "categoriaId": 2,
+      "titulo": "Hey Soul Sister Guitar Tutorial - Train Guitar Lesson 🎸 |Easy Chords + Guitar Cover|",
+      "url": "https://youtu.be/a2ThAHLHrQo"
+    },
+    {
+      "id": 11,
+      "categoriaId": 2,
+      "titulo": "『TAB』 Bad Liar - Imagine Dragons (Fingerstyle Guitar Cover)",
+      "url": "https://youtu.be/oSDpdcgREo4"
+    },
+    {
+      "id": 12,
+      "categoriaId": 2,
+      "titulo": "Galway Girl Guitar Tutorial - Ed Sheeran Guitar Lesson 🎸 |Easy Chords + Guitar Cover|",
+      "url": "https://youtu.be/QsLtz1lSvsY"
+    },
+    {
+      "id": 13,
+      "categoriaId": 3,
+      "titulo": "SERÁ QUE O SWAIN CONSEGUE RETOMAR O PODER COM ESSES BUFFS? | Kami",
+      "url": "https://youtu.be/qo04yLlI7tI"
+    },
+    {
+      "id": 14,
+      "categoriaId": 3,
+      "titulo": "DICAS BÁSICAS E ESSENCIAIS DO LOL!",
+      "url": "https://youtu.be/SK2cWgN65XE"
+    },
+    {
+      "id": 15,
+      "categoriaId": 3,
+      "titulo": "O SENTIMENTO DE SER PRO PLAYER! - Takeshi",
+      "url": "https://youtu.be/FR1WIXb1bhU"
+    },
+    {
+      "id": 16,
+      "categoriaId": 3,
+      "titulo": "Jayce Tips & Tricks [Pro Analysis]",
+      "url": "https://youtu.be/DzXe4fCB5nU"
+    },
+    {
+      "id": 17,
+      "categoriaId": 4,
+      "titulo": "COMO ANALISAR UMA AÇÃO | Como escolher empresas para investir",
+      "url": "https://youtu.be/VF8Z7ZwCFQ0"
+    },
+    {
+      "id": 18,
+      "categoriaId": 4,
+      "titulo": "COMO COMEÇAR A INVESTIR | O passo a passo COMPLETO (com e-book gratuito)",
+      "url": "https://youtu.be/PtAkxzMhobQ"
+    },
+    {
+      "id": 19,
+      "categoriaId": 4,
+      "titulo": "6 PASSOS PRÁTICOS PRA JUNTAR 10 MIL REAIS! O passo 6 é o mais difícil",
+      "url": "https://youtu.be/7DOhKIQGXPA"
+    },
+    {
+      "id": 20,
+      "categoriaId": 4,
+      "titulo": "5 PASSOS PRA INVESTIR EM AÇÕES! Entrar agora na Bolsa ou esperar? ",
+      "url": "https://youtu.be/F53-_i9fr-0"
+    },
+    {
+      "id": 21,
+      "categoriaId": 5,
+      "titulo": "ZELDA BREATH OF THE WILD - Gameplay do Início, em Português, no Nintendo Switch!",
+      "url": "https://youtu.be/Cl6Bc7nZps4"
+    },
+    {
+      "id": 22,
+      "categoriaId": 5,
+      "titulo": "THE LAST OF US REMASTERED: O Início - Gameplay 1080p em Português!",
+      "url": "https://youtu.be/fWPdNa72CuM"
+    },
+    {
+      "id": 23,
+      "categoriaId": 5,
+      "titulo": "Apresentação do CONSOLE e de GAMES do PLAYSTATION 5",
+      "url": "https://youtu.be/cBnmtc0pr58"
+    },
+    {
+      "id": 24,
+      "categoriaId": 5,
+      "titulo": "O CHEFÃO FINAL! - Minecraft Dungeons #5",
+      "url": "https://youtu.be/_aqZi_nClPI"
+    },
+    {
+      "id": 25,
+      "categoriaId": 6,
+      "titulo": "Deep Fake | Nerdologia Tech",
+      "url": "https://youtu.be/GBeavecUwB8"
+    },
+    {
+      "id": 26,
+      "categoriaId": 6,
+      "titulo": "Musashi, o maior samurai | Nerdologia",
+      "url": "https://youtu.be/gRe7oBX7LYk"
+    },
+    {
+      "id": 27,
+      "categoriaId": 6,
+      "titulo": "CÂNCER",
+      "url": "https://youtu.be/wCH7zD_mm3s"
+    },
+    {
+      "id": 28,
+      "categoriaId": 6,
+      "titulo": "O Paradoxo do Teletransporte",
+      "url": "https://youtu.be/2LqqyxmEWnY"
+    },
+    {
+      "id": 29,
+      "categoriaId": 6,
+      "titulo": "O Que Aconteceria Se Você Passasse 1 Segundo no Núcleo do Sol?",
+      "url": "https://youtu.be/26BvHv-Z2p4"
+    }
+  ]
 }
