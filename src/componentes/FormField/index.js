@@ -71,7 +71,7 @@ const Input = styled.input`
 `;
 
 function FormField({
-  label, type, name, value, onChange, suggestions,
+  label, type, name, value, onBlur, onChange, suggestions,
 }) {
   const fieldId = `id_${name}`;
   const isTextarea = type === 'textarea';
@@ -92,6 +92,7 @@ function FormField({
           value={value}
           name={name}
           hasValue={hasValue}
+          onBlur={onBlur}
           onChange={onChange}
           autoComplete={hasSuggestions ? 'off' : 'on'}
           list={hasSuggestions ? `suggestionFor_${fieldId}` : undefined}
@@ -124,6 +125,7 @@ function FormField({
 FormField.defaultProps = {
   type: 'text',
   value: '',
+  onBlur: () => {},
   onChange: () => {},
   suggestions: [],
 };
@@ -134,6 +136,7 @@ FormField.propTypes = {
   mas não é obrigatório, de forma que a gente vai ter que tirar o proptype dele, usando defaultProps */
   name: PropTypes.string.isRequired,
   value: PropTypes.string,
+  onBlur: PropTypes.func,
   onChange: PropTypes.func,
   suggestions: PropTypes.arrayOf(PropTypes.string), // a gente tá forçando que vai ser um array de string
 };

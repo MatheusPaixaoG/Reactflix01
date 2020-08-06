@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import PageDefault from '../../../componentes/PageDefault';
@@ -16,14 +17,28 @@ function CadastroCategoria() {
       setNomeDaCategoria, que é o que a gente vai usar para mudar;
       Esse "Valor Inicial" que tá dentro de useState vai ser o nosso valor inicial, por isso que ele já
       está aparecendo na tela */
+  const filter_nome = /^([a-zA-Zà-úÀ-Ú]|\s+)+$/;
 
-  const { handleChange, values, clearForm } = useForm(valoresIniciais);
-  
+  const {
+    handleChange, values, clearForm, errors, setErrors, touched, handleBlur,
+  } = useForm({
+    valoresIniciais,
+    validate: function(values) {
+      const errors = {};
+
+      if (!filter_nome.test(values.nome)) {
+        errors.nome = 'Por favor, digite apenas letras e acentos.';
+      }
+
+      // descricao: 'Please, insert a valid description',
+
+      return errors;
+    },
+  });
+
   /* O useState retorna o nome da categoria e uma função */
   // "set" vai definir o nome da categoria
   const [categorias, setCategorias] = useState([]);
-
-  
 
   useEffect(() => {
     const URL_TOP = window.location.hostname.includes('localhost')
@@ -71,6 +86,8 @@ function CadastroCategoria() {
           values,
         ]);
 
+        // validateValues(values)
+
         clearForm();
       }}
       >
@@ -80,8 +97,10 @@ function CadastroCategoria() {
           type="text"
           name="nome"
           value={values.nome}
+          onBlur={handleBlur}
           onChange={handleChange}
         />
+        {touched.nome && errors.nome && <span>{errors.nome}</span>}
 
         <FormField
           label="Descrição: "
@@ -90,6 +109,7 @@ function CadastroCategoria() {
           value={values.descricao}
           onChange={handleChange}
         />
+        {errors.descricao && <span>{errors.descricao}</span>}
 
         <FormField
           label="Cor: "
